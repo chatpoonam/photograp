@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            min-height: 800px;
+            background: url(img/back.jpg);
+            /* background-color: #030303; */
+        }
+
+        .warpper {
+            width: 80%;
+            min-height: 600px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            /* background: url(img/back.jpg); */
+            background-color: white;
+        }
+
+        /* ------------------  header   ------------------- */
+        .header {
+            width: 100%;
+            height: 700px;
+            display: flex;
+            flex-direction: row;
+            background: url(img/goa.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* background-color: aqua; */
+        }
+
+        .logo {
+            width: 20%;
+            height: 100px;
+            /* background-color: aqua; */
+        }
+
+        .logo img {
+            width: 80%;
+            height: 100px;
+            margin-left: 20%;
+            margin-top: 10px;
+            border-radius: 50px;
+        }
+
+        .menu {
+            width: 65%;
+            height: 100px;
+            /* background-color: pink; */
+        }
+
+        .menu ul {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .menu ul li {
+            list-style-type: none;
+            padding: 30px;
+            margin-left: 40px;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            transition: all 0.3s ease;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+
+        }
+
+        .menu ul li a:hover {
+            color: palevioletred;
+
+        }
+
+        .login {
+            width: 15%;
+            height: 100px;
+            /* background-color: aqua; */
+        }
+
+        .login .btn1 {
+            margin-top: 10%;
+            margin-left: 30%;
+            font-weight: bold;
+            padding: 4%;
+        }
+
+        .btn1:hover {
+            color: aqua;
+            background-color: black;
+            /* display: none; */
+            /* background: url(img/butfly.png); */
+        }
+
+        /* ----------------   header end      ----------------- */
+
+
+        /* ----------------   slider      ----------------- */
+
+        .slider {
+            width: 100%;
+            min-height: 400px;
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            /* background-color: pink; */
+        }
+
+        .img-div {
+            width: 50%;
+            height: 400px;
+            /* background-color: pink; */
+        }
+
+        .img-div .img1 {
+            width: 60%;
+            height: 300px;
+            margin-left: 30%;
+            /* padding: 10px; */
+        }
+
+        .img-div .img2 {
+            width: 30%;
+            height: 200px;
+            margin-top: -28%;
+            margin-left: 20%;
+            border: 7px solid white;
+        }
+
+        .text-div {
+            width: 50%;
+            height: 400px;
+            color: black;
+            font-weight: bold;
+            /* background-color: violet; */
+
+        }
+
+        /* ----------------   slider end      ----------------- */
+
+
+
+        /* ----------------   slider1      ----------------- */
+
+        .slider1 {
+            width: 100%;
+            min-height: 400px;
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            /* background-color: pink; */
+        }
+
+        .text-div1 {
+            width: 45%;
+            height: 400px;
+            color: black;
+            font-weight: bold;
+            margin-left: 20px;
+            /* background-color: violet; */
+        }
+
+        .img-div1 {
+            width: 50%;
+            height: 400px;
+            margin-left: 5%;
+            /* background-color: pink; */
+        }
+
+        .img-div1 .img2 {
+            width: 60%;
+            height: 200px;
+            margin-left: 20px;
+            z-index: -222;
+            border: none;
+            background: url(img/agri.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .info2 {
+            width: 50%;
+            height: 150px;
+            margin-top: -30%;
+            margin-left: 40%;
+            color: black;
+            font-weight: bold;
+            background-color: white;
+            box-shadow: 5px 5px 5px 5px black;
+            transition: all 0.2s ease;
+        }
+        .info2:hover{
+            transform: scaleY(1.5);
+        }
+        .img-div1 .img3{
+            width: 60%;
+            height: 200px;
+            margin-top: 10%;
+            margin-left: 20px;
+            background: url(img/agri.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }       
+        .info3 {
+            width: 50%;
+            height: 150px;
+            margin-top: -30%;
+            margin-left: 40%;
+            box-shadow: 5px 5px 5px 5px black;
+            background-color: white;
+            font-weight: bold;
+            transition: all 0.2s ease;
+        }
+        .info3:hover{
+           transform: scaleY(1.5);
+        }
+
+        /* ----------------   slider1 end      ----------------- */
+
+         /* ----------------   slider3      ----------------- */
+
+         .slider3 {
+            width: 100%;
+            height: 800px;
+            display: flex;
+            flex-direction: row;
+            margin-top: 70px;
+            /* background-color: pink; */
+        }
+
+        .img1 {
+            width: 45%;
+            height: 520px;
+            color: black;
+            font-weight: bold;
+            /* background-color: violet; */
+        }
+        .img1 .g1{
+            margin-left: 10px;
+            width: 40%;
+            margin-top: -35%;
+            height: 160px;
+        }  
+        .img1 .g2{
+            width: 50%;
+            height: 350px;
+            margin-left: 30px;
+        }  
+        .img1 .g3{
+            width: 40%;
+            height: 350px;
+            margin-left: 10px;
+            margin-top: -30%;
+        }  
+        .img1 .g4{
+            width: 50%;
+            height: 150px;
+            margin-top: 20px;
+            margin-left: 30px;
+        }       
+
+        .img2{
+            width: 58%;
+            height: 520px;
+            margin-left: 2%;
+            margin-right: 10px;
+           /* background-color: #E91E63; */
+        }
+        .img2 p{
+            margin-top: 5%;
+        }
+        .img2 .g5{
+            width: 80%;
+            height: 220px;
+            margin-top: 20%;
+            margin-left: 50px;
+        }
+       
+
+        /* ----------------   slider3 end      ----------------- */
+
+
+        /* ----------------   gallery       ----------------- */
+
+        .text-gallery{
+            width: 60%;
+            margin: auto;
+            margin-top: -15%;
+            /* background-color: pink; */
+        }
+         h1{
+            text-align: center;
+            font-style: italic;
+        }
+        h4{
+            text-align: center;
+            font-style: italic;
+        }
+         p{
+            text-align: center;
+            font-weight: bold;
+            justify-content: center;
+        }
+        .gallery{
+            width: 100%;
+            height: 220px;
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            /* background-color: #E91E63; */
+        }
+        .gallery1{
+            width: 100%;
+            height: 220px;
+            display: flex;
+            flex-direction: row;
+            /* background-color: #E91E63; */
+        }
+        .ga1{
+            width: 29%;
+            margin-left: 10px;
+            height: 200px;
+            transition: all 0.2s ease;
+         }
+         .ga1:hover{
+            transform: scale(1.5);
+         }
+        .ga2{
+            width: 37%;
+            height: 200px;
+            margin-left: 20px;
+            transition: all 0.2s ease;
+         }
+         .ga2:hover{
+            transform: scale(1.5);
+         }
+        .ga3{
+            width: 29%;
+            height: 200px;
+            margin-left: 20px;
+            /* margin-left: -10px; */
+            transition: all 0.2s ease;
+         }
+         .ga3:hover{
+            transform: scale(1.5);
+         }
+        .ga4{
+            width: 35%;
+            height: 200px;
+            margin-left: 10px;
+            transition: all 0.2s ease;
+         }
+         .ga4:hover{
+            transform: scale(1.5);
+         }
+        .ga5{
+            width: 25%;
+            height: 200px;
+            margin-left: 20px;
+            transition: all 0.2s ease;
+         }
+         .ga5:hover{
+            transform: scale(1.5);
+         }
+        .ga6{
+            width: 35%;
+            height: 200px;
+            margin-left: 20px;
+            /* margin-left: -10px; */
+            transition: all 0.2s ease;
+         }
+         .ga6:hover{
+            transform: scale(1.5);
+         }
+
+        /* ----------------   gallery end      ----------------- */
+
+
+        /* ----------------   footer      ----------------- */
+
+        .footer {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            background: #030303;
+            border-top: 6px solid red;
+            /* background-color: #ee9313; */
+            margin-top: 50px;
+            padding: 50px 0;
+        }
+
+        .footer-col {
+            width: 25%;
+            padding: 0 15px;
+        }
+
+        .footer-col h4 {
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 1.1em;
+            margin-bottom: 35px;
+            font-weight: 500;
+            margin-right: 80%;
+            position: relative;
+        }
+
+        .footer-col h4:not(:last-child) {
+            margin-left: 20px;
+        }
+
+        .footer-col h4::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            background-color: #E91E63;
+            height: 2px;
+            box-sizing: border-box;
+            width: 50px;
+
+        }
+
+        .footer-col ul li:not(:last-child) {
+            margin-bottom: 10px;
+        }
+
+        .footer-col ul li {
+            list-style: none;
+        }
+
+        .footer-col ul li a {
+            font-size: 1em;
+            text-transform: capitalize;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 100;
+            display: block;
+            transition: all 0.3s ease;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+        }
+
+        .footer-col ul li a:hover {
+            color: #fff;
+            text-decoration: none;
+            padding-left: 8px;
+        }
+
+        .footer-col .social-links a {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            text-decoration: none;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin: 0 10px 10px 0;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            color: #fff;
+        }
+
+        .footer-col .social-links a:hover {
+
+            color: #24262B;
+            background-color: #fff;
+            transition: all 0.3s ease;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+        }
+
+        /* ----------------   footer end      ----------------- */
+
+
+        /* @media only screen and (max-width:1200px) {
+           
+            .logo
+            {
+                width: 40%;
+                margin: auto;
+            }
+            .menu{
+                width: 100%;
+            }
+             .menu ul li{
+                margin: auto;
+            }
+            .login{
+                margin: auto 30px;
+            } 
+            
+        }
+
+        @media only screen and (max-width:768px) {
+            .warpper{
+                height: 300px;
+            }
+           .header{
+            display: flex;
+               flex-direction: column;
+           }
+           .logo
+           {
+                width: 40%;
+               height: 100px;
+               margin: auto;
+           }
+           .menu{
+               height: 100px;
+               margin: auto; 
+           }
+           .menu ul li{
+                            padding: 12px;
+               margin-top: 15px;
+           }
+           .login{
+               margin: auto;
+           }
+           
+       } */
+
+
+
+        @media only screen and (max-width:1500px) {
+
+            .logo {
+                width: 30%;
+            }
+
+            .menu {
+                width: 80%;
+            }
+
+            .menu ul li {
+                margin: auto;
+                padding: 8px;
+                margin-top: 40px;
+            }
+
+            .login {
+                margin: auto 30px;
+                margin-top: 30px;
+            }
+            .img1{
+                width: 50%;
+            }
+            .img1 .g1{
+                width: 40%;
+            }
+            .img1 .g2{
+                width: 40%;
+            }
+            .img1 .g3{
+                width: 40%;
+            }
+            .img1 .g4{
+                width: 40%;
+            }
+
+        }
+
+        @media only screen and (max-width:1200px) {
+            .header{
+                background-size: cover;
+            }
+            .logo {
+                width: 30%;
+                margin: auto;
+                margin-top: -5px;
+            }
+
+            .menu {
+                width: 80%;
+            }
+
+            .menu ul li {
+                margin: auto;
+                padding: 8px;
+                margin-top: 30px;
+            }
+
+            .login {
+                margin: auto 30px;
+                margin-top: 30px;
+            }
+            .info2{
+                margin-top: -40%;
+            }
+            .info3{
+                margin-top: -40%;
+            }
+            .gallery{
+                width: 99%;
+                margin-right: 10px;
+            }
+            .gallery1{
+                width: 99%;
+                margin-right: 10px;
+            }
+
+        }
+
+        @media only screen and (max-width:768px) {
+            .header {
+                height: 300px;
+                display: flex;
+                background-size: cover;
+                flex-direction: column;
+            }
+
+            .logo {
+                width: 40%;
+                height: 100px;
+                margin: auto;
+            }
+
+            .menu {
+                height: 100px;
+                margin: auto;
+            }
+
+            .menu ul li {
+                padding: 12px;
+                margin-top: 15px;
+            }
+
+            .login {
+                margin: auto;
+            }
+
+            /* ----------------------- */
+
+            .slider {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .slider .img-div {
+                width: 100%;
+            }
+
+            .slider .text-div {
+                width: 100%;
+            }
+
+            /* ----------------------- */
+
+            .slider1 {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .slider1 .img-div1 {
+                width: 100%;
+                height: 500px;
+            }
+
+            .slider1 .text-div1 {
+                width: 100%;
+            }
+            .info2{
+                margin-top: -30%;
+            }
+            .info3{
+                margin-top: -30%;
+            }
+            /* ----------------------- */
+
+            /* ----------------------- */
+            .slider3{
+                min-height: 500px;
+                display: flex;
+                flex-direction: column;
+            }
+            .img1{
+                width: 90%;
+                margin: auto;
+            }
+            .img2{
+                width: 90%;
+                margin: auto;
+                margin-top: 50px;
+            }
+            .img2 .g5{
+                margin-top: -1px;
+            }
+            /* ----------------------- */
+            .text-gallery{
+                width: 85%;
+                margin-top: 22%;
+            }
+            .gallery{
+                width: 94%;
+            }
+            .gallery1{
+                width: 94%;
+            }
+            /* ----------------------- */
+
+            /* ----------------------- */
+           
+
+        }
+
+        @media only screen and (max-width:680px) {
+            .header {
+                min-height: 200px;
+                display: flex;
+                flex-direction: column;
+                background-size: cover;
+            }
+
+            .logo {
+                width: 30%;
+                margin: auto;
+            }
+
+            .menu {
+                width: 80%;
+                margin-left: -20px;
+
+            }
+
+            .menu ul li {
+                margin: auto;
+                padding: 12px;
+            }
+
+            .login {
+                margin: auto 30px;
+                margin-top: 30px;
+                margin-left: 40%;
+            }
+
+            .slider {
+                width: 90%;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .slider1 {
+                width: 90%;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+            }
+            .slider3 {
+                width: 90%;
+                margin: auto;
+                margin-top: 40%;
+            }
+            .img2{
+                margin-top: 25%;
+            }
+            .text-gallery{
+                margin-top: 50%;
+            }
+            .gallery{
+                min-height: 500px;
+                display: flex;
+                flex-direction: column;
+            }
+            .ga1{
+                width: 50%;
+                margin: auto;
+            }
+            .ga2{
+                width: 80%;
+                margin: auto;
+                margin-top: 20px;
+            }
+            .ga3{
+                width: 75%;
+                margin: auto;
+                margin-top: 20px;
+            }
+            .gallery1{
+                min-height: 800px;
+                display: flex;
+                flex-direction: column;
+            }
+            .ga4{
+                width: 50%;
+                margin: auto;
+                margin-top: 20%;
+            }
+            .ga5{
+                width: 80%;
+                margin: auto;
+                margin-top: 20px;
+            }
+            .ga6{
+                width: 75%;
+                margin: auto;
+                margin-top: 20px;
+            }
+        }
+
+        @media only screen and (max-width:568px) {
+            .header {
+                background-size: cover;
+                min-height: 700px;
+            }
+            .menu ul {
+                display: flex;
+                flex-direction: column;
+                margin-left: 40%;
+            }
+            .login .btn1 {
+                margin-top: 200%;
+            }
+            .footer {
+                display: flex;
+                flex-direction: column;
+            }
+            /* .footer-col {
+                margin-left: 10%;
+            } */
+            /* ----------------------- */
+            .slider .img-div {
+                width: 100%;
+            }
+            .slider .text-div {
+                width: 100%;
+                margin-top: 250%;
+                margin-left: auto;
+            }
+            /* ----------------------- */
+
+            .slider1 {
+                width: 90%;
+                min-height: 400px;
+            }
+            .slider1 .img-div1 {
+                width: 80%;
+                /* margin-left: auto; */
+            }
+            .info2{
+                overflow: auto;
+            }
+            .info3{
+                overflow:auto;
+            }
+
+            /* ----------------------- */
+            .img1{
+                width: 90%;
+                margin-top: 150%;
+            }
+            .img2{
+                width: 90%;
+                /* margin: auto; */
+                margin-top: 200%;
+            }
+            /* ----------------------- */
+            .text-gallery{
+                margin-top: 500%;
+            }
+            /* ----------------------- */
+            /* ----------------------- */
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="warpper">
+
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@  header strat   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+        <section class="header">
+            <div class="logo">
+                <img src="img/logo-bg.png">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <!-- <li><a href="#gallery">Services</a></li> -->
+                    <!-- <li><a href="product.html">Products</a></li> -->
+                    <li><a href="gallery.html">Gallery</a></li>
+
+                    <!-- <li class="nav-item dropdown new1">
+                        <a class="nav-link dropdown-toggle Gallery" data-toggle="dropdown"
+                            href="gallery.html" >Gallery</a>
+                        <div class="dropdown-menu"
+                            style="background-color: rgba(229, 180, 116,0.4); border-radius: 30px; border: none;">
+                            <a class="dropdown-item" href="other/Events.html"
+                                style="color: black; font-weight: bold; border-radius: 30px;">Sea Animal</a>
+                            <a class="dropdown-item" href="other/Place.html"
+                                style="color: black; font-weight: bold; border-radius: 30px;">History Place</a>
+                            <a class="dropdown-item" href="#"
+                                style="color: black; font-weight: bold; border-radius: 30px;">Portrits</a>
+                            <a class="dropdown-item" href="other/Agri1.html"
+                                style="color: black; font-weight: bold; border-radius: 30px;">Agri</a>
+                            <a class="dropdown-item" href="other/beaches.html"
+                                style="color: black; font-weight: bold; border-radius: 30px;">beaches</a>
+                            <a class="dropdown-item" href="other/Animal.html"
+                                style="color: black; font-weight: bold; border-radius: 30px;">Animal</a>
+                        </div>
+                    </li> -->
+
+
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="login">
+                <button class="btn btn-dark btn1 ">LogIn</button>
+            </div>
+
+        </section>
+
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@  hesder end   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@  slider   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
+        <section class="slider">
+            <div class="img-div">
+                <img src="img/agri.jpg" class="img1">
+                <img src="img/agri1.jpg" class="img2">
+            </div>
+            <div class="text-div">
+                <h1>We're Thrilled To Present Our Professional Photography Services</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi qui quasi quisquam laborum porro nemo sint ea culpa pariatur quaerat?</p>
+            </div>
+        </section>
+
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@  hesder end   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
+
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@  slider1   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
+        <section class="slider1">
+            <div class="text-div1">
+                <h1>Our Expert Photography Services That Immortalize The Moments</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam repudiandae odio ab
+                 asperiores! Atque dignissimos officia sint veritatis, exercitationem, deleniti consequatur
+                  quas quos tenetur optio distinctio quia commodi. Amet in ratione adipisci quos vero corporis pariatur quisquam 
+                quaerat reprehenderit? Error at, dignissimos cumque eius magnam voluptates officiis id! In, reiciendis?</p>
+            </div>
+
+            <div class="img-div1">
+                <div class="img2">
+
+                </div>
+
+                <div class="info2">
+                    <h4>Food Photography</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, doloremque?</p>
+                </div>
+
+                <div class="img3">
+
+                </div>
+                <div class="info3">
+                    <h4>Work Out Photography</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, doloremque?</p>
+                
+                </div>
+            </div>
+        </section>
+
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@  slider1 end   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@  slider3    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+        <section class="slider3">
+
+            <div class="img1">
+                <img src="img/goa.jpg" class="g1">
+                <img src="img/goa.jpg" class="g2">
+                <img src="img/goa.jpg" class="g3">
+                <img src="img/goa.jpg" class="g4">
+                 </div>
+
+            <div class="img2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe itaque nisi quam quae ad voluptas! Recusandae provident
+                     repudiandae nisi dolor, deleniti ipsum porro repellendus facilis voluptate delectus eum quasi odio?</p>
+                <img src="img/agri.jpg" class="g5">
+            </div>
+
+        </section>
+
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@  slider3 end   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@  gallery   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+        <div class="text-gallery" id="gallery">
+            <h1>Lets Discover All Of Work <br> Gallery Photography</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente atque enim totam reprehenderit veritatis
+             repellendus, nemo ratione perferendis nostrum suscipit tempora nihil amet aspernatur possimus temporibus cupiditate
+             placeat aut dolorum est obcaecati. Iure laboriosam illo consectetur molestiae possimus reiciendis sequi.</p>
+        </div>
+        <div class="gallery">
+            <img src="img/agri.jpg" class="ga1">
+            <img src="img/agri.jpg" class="ga2">
+            <img src="img/agri.jpg" class="ga3">
+        </div>
+
+        <div class="gallery1">
+            <img src="img/agri.jpg" class="ga4">
+            <img src="img/agri.jpg" class="ga5">
+            <img src="img/agri.jpg" class="ga6">
+        </div>
+
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@  gallery end   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
+
+
+        <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@  footer strat   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+        <!-- <section class="wrapper"> -->
+        <footer class="footer">
+
+            <div class="footer-col">
+                <h4>Portfolio</h4>
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Examples</a></li>
+                    <li><a href="#">Plan</a></li>
+                    <li><a href="#">Photographers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Report Abuse</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Gallery</h4>
+                <ul>
+                    <li><a href="other/Events.html">Events</a></li>
+                    <li><a href="other/Place.html">Place</a></li>
+                    <li><a href="other/Agri1.html">Agri</a></li>
+                    <li><a href="other/beaches.html">Beaches</a></li>
+                    <li><a href="other/Animal.html">Animal</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Follow_us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-linkedin b1"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram b1"></i></a>
+                    <a href="#"> <i class="fa-brands fa-twitter b1"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f b1"></i></a>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@  footer end   @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
